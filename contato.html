@@ -1,0 +1,45 @@
+<DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title>Contato</title>
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body>
+            <script>alert("Você está na página " + document.title);</script>
+            <button onclick="mostrarmenu()"><img src="assets/menu.png" width="20px" height="20px"></button>
+            <ul id="menu" style="display: none;">
+               <li><a href="index.html">Home</a></li>
+                <li><a href="atividades.html">Atividades Desenvolvidas</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <script>
+            function mostrarmenu(){
+                var menu = document.getElementById("menu");
+                    if (menu.style.display ==="none"){
+                       menu.style.display = "block";
+                    } else{
+                    menu.style.display = "none";
+                    }
+            }
+            </script>
+            <br><br>
+            <div style="text-align: center">
+                <h1>Joel Queiroz da Silva Junior</h1>
+                <img src="assets/avatar.jpg"height="200px" width="200px">
+            
+            <h2>Contato</h2>
+            <h4>Email: </h4>
+            <p>joelqsj@gmail.com</p>
+            <h4>Telefone: </h4>
+            <p>(77) 98100-9587</p>
+            <h4>Endereço: </h4>
+            <p>Rua Almirante tamandaré, 32A - Jequié, Bahia</p>
+            <h4>GitHub: </h4>
+            <p><a href="https://github.com/JoelJunior08" target="_blank">github.com/JoelJunior08</a></p>
+            <h4>LinkedIn: </h4>
+            <p><a href="https://www.linkedin.com/in/joel-queiroz/" target="_blank">linkedin.com/in/joel-queiroz/</a></p>
+             </div>
+        </body>
+    </html>

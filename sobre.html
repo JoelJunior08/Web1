@@ -1,0 +1,64 @@
+<DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title>Sobre</title>
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body>
+            <script>alert("Você está na página " + document.title);</script>
+            <button onclick="mostrarmenu()"><img src="assets/menu.png" width="20px" height="20px"></button>
+            <ul id="menu" style="display: none;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="atividades.html">Atividades Desenvolvidas</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <script>
+            function mostrarmenu(){
+                var menu = document.getElementById("menu");
+                    if (menu.style.display ==="none"){
+                        menu.style.display = "block";
+                    } else{
+                        menu.style.display = "none";
+                    }
+            }
+            </script>
+            <br><br>
+            <div>
+
+                <h1>Joel Queiroz da Silva Junior</h1>
+
+                <img src="assets/avatar.jpg"height="200px" width="200px">
+            
+            <h3>Contato</h3>
+            <p>Email: joelqsj@gmail.com</p>
+            <p>Telefone: (77) 98100-9587</p>
+
+            <h3>Sobre mim</h3>
+            <p> 
+                Desenvolvedor Full Stack em formação, cursando Técnico em Informática no IFBA e estudando Desenvolvimento Full Stack pela +PraTi. Possuo conhecimentos em JavaScript, HTML, CSS, Java e Python, adquiridos por meio da formação acadêmica e estudos autônomos. Sou apaixonado por tecnologia, resolução de problemas e desenvolvimento de soluções digitais, buscando constantemente aprimorar minhas habilidades e adquirir experiência prática.
+            </p>
+
+            <h3>Formação</h3>
+            <p>Técnico em Informática pelo Instituto Federal da Bahia (IFBA) - 07/2025 a 12/2026</p>
+            <p>Desenvolvimento Full Stack pela +PraTi - 05/2026 a 12/2026</p>
+
+            <h3>Habilidades Técnicas</h3>
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Git e GitHub</li>
+                <li>Excel intermediário</li>
+            </ul>
+
+            <h3>Experiência</h3>
+            <p>Espumão Estética Automotiva - 03/2022 a 07/2022 <br> Responsável por realizar serviços de limpeza e revitalização de veículos, garantindo a satisfação dos clientes e a manutenção da qualidade dos serviços prestados.</p>
+            <p>Mercado Livre - 07/2022 a 03/2023 <br> Responsável por realizar entregas de produtos aos clientes, garantindo a entrega no prazo e a satisfação do cliente.</p>
+            <p>Topvel Tropical Veiculos e Peças - 03/2023 a 06/2026 <br> Responsável pela estética e preparação de veículos para venda.</p>
+            </div>
+        </body>
+    </html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="UTF-8">
+			<title>Index</title>
+			<link rel="stylesheet" href="css/style.css">
+		</head>
+		<body>
+			<script>alert("Você está na página " + document.title);</script>
+			<button onclick="mostrarmenu()"><img src="assets/menu.png" width="20px" height="20px"></button>
+			<ul id="menu" style="display: none;">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="atividades.html">Atividades Desenvolvidas</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+			<script>
+			function mostrarmenu(){
+				var menu = document.getElementById("menu");
+					if (menu.style.display ==="none"){
+						menu.style.display = "block";
+					} else{
+						menu.style.display = "none";
+					}
+			}
+			</script>
+			<br><br>
+			<div>
+				<h1>Joel Queiroz da Silva Junior</h1>
+
+				<img src="assets/avatar.jpg"height="200px" width="200px">
+
+			<h2>Biografia</h2>
+			<p>
+				Desenvolvedor Full Stack em formação, atualmente cursando o 2º semestre do Técnico em Informática no Instituto Federal da Bahia (IFBA) e iniciando minha formação em Desenvolvimento Full Stack pela +PraTi. Complemento minha formação com estudos autônomos nas tecnologias JavaScript, HTML, CSS, Java e Python. <br><br>
+
+				Meu interesse por tecnologia surgiu ainda na infância, despertando a curiosidade de entender como sistemas e aplicações são criados. Esse interesse me levou a iniciar meus estudos de programação de forma autodidata, utilizando cursos, documentações e conteúdos online para construir uma base sólida de conhecimento.<br><br>
+
+				Buscando evoluir constantemente, decidi investir em uma formação técnica e em cursos especializados para ampliar minhas competências e adquirir experiência prática no desenvolvimento de software. Tenho interesse especial no desenvolvimento de aplicações web, na resolução de problemas e na criação de soluções que gerem valor para pessoas e empresas.<br><br>
+
+				Meu objetivo é me tornar um desenvolvedor Full Stack qualificado, capaz de desenvolver aplicações modernas, eficientes e escaláveis. Para isso, mantenho uma rotina contínua de aprendizado, participando de projetos práticos e buscando novas oportunidades para aplicar e aprimorar meus conhecimentos.<br><br>
+
+				Sou uma pessoa curiosa, dedicada e comprometida com meu desenvolvimento profissional, sempre em busca de novos desafios, aprendizados e oportunidades de crescimento na área de tecnologia.<br><br>
+
+				A seguir, apresento alguns dos projetos que desenvolvi durante minha jornada de aprendizado.<br><br>
+			</p>
+			<a href="atividades.html"><img src="assets/seta.jpg" alt="_self" height="50px" width="50px"></a>
+			</div>
+		</body>
+	</html>

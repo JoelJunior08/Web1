@@ -1,0 +1,44 @@
+ul{
+	list-style: none;
+	padding: 0;
+    }
+li{
+	background: #eee;
+	margin: 5px;
+	padding: 10px;
+}
+li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+li:hover {
+	background: #ccc;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+h1{
+	background-color: gray;
+	font-size: 50px;
+}
+h2{
+	background-color: lightgray;
+	font-size: 40px;
+}
+h3{
+	background-color: lightgray;
+	font-size: 30px;
+}
+h4{
+	background-color: lightgray;
+	font-size: 25px;
+}
+div{
+	text-align: center;
+}
+body{
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
