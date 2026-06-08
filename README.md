@@ -61,18 +61,6 @@ Site desenvolvido para apresentar minhas informações profissionais, habilidade
 
 ---
 
-## 📊 Estatísticas GitHub
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=JoelJunior08&show_icons=true&theme=default"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoelJunior08&layout=compact&theme=default"/>
-
-</div>
-
----
-
 ## 🏆 Formação e Certificações
 
 🎓 Técnico em Informática - IFBA (em andamento)
